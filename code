@@ -52,7 +52,7 @@ void send_sms_loc(float x ,float y){
     gsm_serial.println("AT+CMGF=1");
     delay(1000);  
     Serial.println("sending SMS");
-    gsm_serial.println("AT+CMGS=\"+919494706564\"\r"); 
+    gsm_serial.println("AT+CMGS=\"+919492777025\"\r"); 
     delay(1000);
     gsm_serial.println("I Have problem at"); 
     delay(1000);
